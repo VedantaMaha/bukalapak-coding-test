@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+}
+
+.menu-bar {
+  width: 300px;
+  display: inline-block;
+}
+
+.menu {
+  cursor: pointer;
+  display: block;
+  margin: 5px 10px;
+}
+
+.menu:hover {
+  color: blue;
+}
+
+.active {
+  color: blue;
+}
+
+.items-container {
+  width: 100%;
+  display: inline-block;
+}
+
+.item-title {
+  margin: 0;
+}
+
+.item-name {
+  margin: 0;
+  display: block;
+}
